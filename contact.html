@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- navbar section starts  -->
+
+<nav class="navbar">
+    <a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a>
+    <a href="skills.html"><i class="fas fa-wrench"></i> <span>Skills</span></a>
+    <a href="projects.html"><i class="fas fa-briefcase"></i> <span>Projects</span></a>
+    <a href="contact.html"><i class="fas fa-address-book"></i> <span>Contact</span></a>
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact">
+
+<h1 class="heading"> Contact <span>Me</span></h1>
+
+<div class="row">
+
+    <div class="info-container">
+
+        <h1>Let's Keep in Touch</h1>
+
+        <p>I look forward to pursuing a chance at breaking into tech with your company. 
+        Thank you for making it this far and considering me for the position.</p>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <div class="info">
+                    <h3>Location:</h3>
+                    <p>Madison, TN - 37115</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                    <h3>E-mail:</h3>
+                    <p>dq.heard@yahoo.com</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <div class="info">
+                    <h3>Number:</h3>
+                    <p>615-957-9756</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <form action="https://mailthis.to/dq-heard" onclick="redirect()">
+
+        <div class="inputBox">
+            <input type="text" name="name" placeholder="Name*" required>
+            <input type="text" placeholder="Phone">
+        </div>
+
+        <div class="inputBox">
+            <input type="email" name="_replyto" placeholder="E-mail*" required>
+            <input type="text" name="website" placeholder="Website">
+        </div>
+
+        <textarea name="message" placeholder="Write Your Message*" cols="30" rows="10" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+
+        <input type="hidden" name="_subject" value="Contact Form Submitted">
+        <input type="hidden" name="_after" value="https://dq-heard.github.io/Portfolio/">
+        <input type="hidden" name="_honeypot" value="">
+        <input type="hidden" name="_confirmation" value="Your message has been sent. You will get a reply as soon as possible.">
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+</body>
+</html>
