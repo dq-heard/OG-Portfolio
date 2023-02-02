@@ -30,7 +30,7 @@ body {
 }
 
 section {
-  padding: 5rem 9%;
+  padding: 5rem 6%;
 }
 
 .heading {
@@ -354,7 +354,7 @@ section {
   color: #69BE28;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
   html {
     font-size: 55%;
   }
@@ -362,7 +362,7 @@ section {
     padding: 3rem 2rem;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .heading {
     font-size: 12vw;
   }
@@ -395,12 +395,15 @@ section {
   .about .image img {
     display: none;
   }
+  .portfolio .box-container .box:last-of-type {
+    display: none;
+  }
   .contact .row form .inputBox input {
     width: 100%;
     margin-bottom: 1rem;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 449px) {
   html {
     font-size: 50%;
   }

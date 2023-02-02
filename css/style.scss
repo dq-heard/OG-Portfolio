@@ -47,7 +47,7 @@ body {
 }
 
 section {
-  padding:5rem 9%;
+  padding: 5rem 6%;
 }
 
 .heading {
@@ -116,7 +116,7 @@ section {
     transition: .2s linear;
 
     i {
-      color:$green;
+      color: $green;
       padding-right: .5rem;
     }
 
@@ -124,7 +124,7 @@ section {
       background: $green;
 
       i {
-        color:$white;
+        color: $white;
       }
     }
   }
@@ -138,7 +138,7 @@ section {
   min-height: calc(100vh - 6.5rem);
 
   .image {
-    flex:1 1 42rem;
+    flex: 1 1 42rem;
     text-align: center;
 
     img {
@@ -207,7 +207,7 @@ section {
       background: $white;
 
       h3 {
-        color:$navy;
+        color: $navy;
       }
     }
 
@@ -309,7 +309,7 @@ section {
     margin-top: 1em;
 
     .content {
-      flex:1 1 42rem;
+      flex: 1 1 42rem;
 
       span {
         font-size: 3rem;
@@ -329,7 +329,6 @@ section {
     }
   }
 }
-
 
 .contact .row {
   display: flex;
@@ -417,28 +416,27 @@ section {
   }
 }
 
-@media (max-width:1200px){
+@media (max-width: 1199px){
 
   html {
     font-size: 55%;
   }
 
   section {
-    padding:3rem 2rem;
+    padding: 3rem 2rem;
   }
 
 }
 
-@media (max-width:768px){
+@media (max-width: 767px){
 
-  .heading{
+  .heading {
     font-size: 12vw;
   }
 
-  .navbar a{
-
+  .navbar a {
     i {
-      padding:0;
+      padding: 0;
     }
 
     span {
@@ -480,13 +478,21 @@ section {
     }
   }
 
+  .portfolio {
+    .box-container {
+      .box:last-of-type {
+        display: none;
+      }
+    }
+  }
+
   .contact .row form .inputBox input {
     width: 100%;
     margin-bottom: 1rem;
   }
 }
 
-@media (max-width:450px){
+@media (max-width: 449px){
 
   html {
     font-size: 50%;
