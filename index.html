@@ -1,56 +1,535 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeQuentin Heard</title>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <!--==================== FONT AWESOME ====================-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css">
+        <title>DeQuentin Heard</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+          <nav class="nav container">
+            <a href="#" class="logo">D. Heard</a>
 
-</head>
-<body>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class="fa-solid fa-house nav-icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="fa-solid fa-user nav-icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class="fa-solid fa-screwdriver-wrench nav-icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">
+                            <i class="fa-solid fa-folder-open nav-icon"></i> Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#resume" class="nav-link">
+                            <i class="fa-solid fa-file nav-icon"></i> Résumé
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="fa-solid fa-address-book nav-icon"></i> Contact
+                        </a>
+                    </li>
+                    <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+                </ul>
+            </div>
+
+            <div class="nav-btns" id="nav-btns">
+                <!-- Theme Change Switch -->
+                <i class="fa-solid fa-moon" id="theme-button"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+          </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home-container container grid">
+                    <div class="home-content grid">
+                        <div class="home-socials">
+                            <a href="https://www.linkedin.com" target="_blank" class="socials-icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+
+                            <a href="https://www.github.com" target="_blank" class="socials-icon">
+                                <i class="fa-brands fa-square-github"></i>
+                            </a>
+
+                            <a href="https://www.facebook.com" target="_blank" class="socials-icon">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+                        </div>
+
+                        <div class="home-img">
+                            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="blob-img" x="12" y="18" xlink:href="assets/img/user.svg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home-data">
+                            <h1 class="home-title">DeQuentin Heard</h1>
+                            <h3 class="home-subtitle">Front End Developer</h3>
+                            <p class="home-desc">I’m a meticulous, hard-working guy striving to 
+                                jump into the tech world as a self-taught dev.</p>
+                            <a href="#contact" class="button button-flex">
+                                Contact Me <i class="fa-solid fa-message button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home-scroll">
+                        <a href="#about" class="button-link button-flex">
+                            <span class="button-title"> Scroll Down </span>
+                            <i class="fa-solid fa-arrow-down scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About Me</h2>
+                <span class="section-subtitle">My Introduction</span>
+
+                <div class="about-container container grid">
+                    <img src="assets/img/laptop.png" alt="" class="about-img">
+
+                    <div class="about-data">
+                        <p class="about-desc">Starting off as a pandemic-era hobby,
+                            I stumbled into a passion with coding and haven't looked back since.<br><br>
+                            With being an Arch Linux user and a former Android ROM connoisseur,
+                            it's been a long overdue move.<br><br> I'm eager to further 
+                            expand my horizons within this field.
+                        </p>
+                    </div>
+                </div> 
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <span class="section-subtitle">& Technologies</span>
+
+                <div class="skills-container container grid">
+                    <div class="skills-content">
+                        <i class="fa-brands fa-html5 skills-icon"></i>
+                        <h3 class="skills-title">HTML</h3>
+                    </div>
+
+                    <div class="skills-content">
+                        <i class="fa-brands fa-css3-alt skills-icon"></i>
+                        <h3 class="skills-title">CSS</h3>
+                    </div>
+
+                    <div class="skills-content">
+                        <i class="fa-brands fa-js skills-icon"></i>
+                        <h3 class="skills-title">JavaScript</h3>
+                    </div>
+
+                    <div class="skills-content">
+                        <i class="fa-brands fa-sass skills-icon"></i>
+                        <h3 class="skills-title">Sass</h3>
+                    </div>
+
+                    <div class="skills-content hidden-skill">
+                        <i class="fa-brands fa-bootstrap skills-icon"></i>
+                        <h3 class="skills-title">Bootstrap</h3>
+                    </div>
+
+                    <div class="skills-content hidden-skill">
+                        <i class="fa-brands fa-python skills-icon"></i>
+                        <h3 class="skills-title">Python</h3>
+                    </div>
+
+                    <div class="skills-content hidden-skill">
+                        <i class="fa-brands fa-linux skills-icon"></i>
+                        <h3 class="skills-title">Linux</h3>
+                    </div>
+
+                    <div class="skills-content hidden-skill">
+                        <i class="fa-brands fa-react skills-icon"></i>
+                        <h3 class="skills-title">React</h3>
+                    </div>
+
+                    <div class="skills-load button-link button-flex">
+                        <span class="button-title">Load More</span>
+                        <i class="fa-solid fa-arrow-rotate-right load-arrow"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+            <section class="project section" id="projects">
+                <h2 class="section-title"> Projects</h2>
+                <span class="section-subtitle">My Recent Work</span>
+
+                <div class="project-container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="project-content grid swiper-slide">
+                            <img src="assets/img/tesseract.png" alt="" class="project-img">
+
+                            <div class="project-data">
+                                <div class="title-container">
+                                    <h3 class="project-title">Tesseract</h3>
+
+                                    <div class="project-read button-link button-flex">
+                                        <span class="button-title">Read More</span>
+                                        <i class="fa-solid fa-arrow-right read-arrow"></i>
+                                    </div>
+                                </div>
+                                
+                                <p class="project-desc">A text-based RPG made with Python 
+                                    complete with riddles and combat.</p>
+
+                                <a href="https://github.com/dq-heard/Tesseract" class="button button-flex button-small project-button">
+                                    Code <i class="fa-solid fa-code button-icon"></i>
+                                </a>
+
+                                <a href="https://replit.com/@dq-heard/Tesseract" class="button button-flex button-small project-button">
+                                    Demo <i class="fa-solid fa-desktop button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content grid swiper-slide">
+                            <img src="assets/img/shoebrand.png" alt="" class="project-img">
+
+                            <div class="project-data">
+                                <div class="title-container">
+                                    <h3 class="project-title">ShoeBrand</h3>
+
+                                    <div class="project-read button-link button-flex">
+                                        <span class="button-title">Read More</span>
+                                        <i class="fa-solid fa-arrow-right read-arrow"></i>
+                                    </div>
+                                </div>
+                                
+                                <p class="project-desc">My first attempt at website building,
+                                    made with vanilla CSS and JavaScript.</p>
+
+                                <a href="https://github.com/dq-heard/ShoeBrand" class="button button-flex button-small project-button">
+                                    Code <i class="fa-solid fa-code button-icon"></i>
+                                </a>
+
+                                <a href="https://dq-heard.github.io/ShoeBrand/" class="button button-flex button-small project-button">
+                                    Demo <i class="fa-solid fa-desktop button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content grid swiper-slide">
+                            <img src="assets/img/wreks.png" alt="" class="project-img">
+
+                            <div class="project-data">
+                                <div class="title-container">
+                                    <h3 class="project-title">Wrek's Diner</h3>
+
+                                    <div class="project-read button-link button-flex">
+                                        <span class="button-title">Read More</span>
+                                        <i class="fa-solid fa-arrow-right read-arrow"></i>
+                                    </div>
+                                </div>
+                                
+                                <p class="project-desc">A Bootstrap website made with a 
+                                    JS focus (with a touch of PHP and SQL).</p>
+
+                                <a href="https://github.com/dq-heard/WreksDiner" class="button button-flex button-small project-button">
+                                    Code <i class="fa-solid fa-code button-icon"></i>
+                                </a>
+
+                                <a href="https://dq-heard.github.io/WreksDiner/" class="button button-flex button-small project-button">
+                                    Demo <i class="fa-solid fa-desktop button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content grid swiper-slide">
+                            <img src="assets/img/fivestar.png" alt="" class="project-img">
+
+                            <div class="project-data">
+                                <div class="title-container">
+                                    <h3 class="project-title">Five Star 615</h3>
+
+                                    <div class="project-read button-link button-flex">
+                                        <span class="button-title">Read More</span>
+                                        <i class="fa-solid fa-arrow-right read-arrow"></i>
+                                    </div>
+                                </div>
+                                
+                                <p class="project-desc">A demo Bootstrap website based on a 
+                                    local clothing and merch business.</p>
+
+                                <a href="#" class="button button-flex button-small project-button">
+                                    Code <i class="fa-solid fa-code button-icon"></i>
+                                </a>
+
+                                <a href="#" class="button button-flex button-small project-button">
+                                    Demo <i class="fa-solid fa-desktop button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-modal">
+                        <div class="modal-content">
+                            <h4 class="modal-title">Tesseract</h4>
+                            <i class="fa-solid fa-xmark modal-close"></i>
+
+                            <div class="modal-desc">
+                                <i class="fa-solid fa-book-open modal-icon"></i>
+
+                                <p>My first Python project and first overall project, also.
+                                    It was a long endeavor in the early stages of my dev journey.
+                                    There's been many ambitious incarnations I gave up on,
+                                    but I'm happy with it. Tesseract isn't the mini Final Fantasy 
+                                    I kept trying to build, but it's a solid start that makes me proud.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-modal">
+                        <div class="modal-content">
+                            <h4 class="modal-title">ShoeBrand</h4>
+                            <i class="fa-solid fa-xmark modal-close"></i>
+
+                            <div class="modal-desc">
+                                <i class="fa-solid fa-book-open modal-icon"></i>
+
+                                <p>This was another early project that was slowly evolving.
+                                    ShoeBrand has undergone substantial changes
+                                    and is responsible for most of my confidence and
+                                    knowledge with basic front-end development.
+                                    Any further updates will be for some minor CSS tweaks
+                                    or adding more functionality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-modal">
+                        <div class="modal-content">
+                            <h4 class="modal-title">Wrek's Diner</h4>
+                            <i class="fa-solid fa-xmark modal-close"></i>
+
+                            <div class="modal-desc">
+                                <i class="fa-solid fa-book-open modal-icon"></i>
+
+                                <p>A project that started off as a way to learn JavaScript,
+                                    but turned into a blank canvas for Bootstrap, PHP, & SQL.
+                                    I hope to come back to something like this here and work 
+                                    more on the Back End stuff someday soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-modal">
+                        <div class="modal-content">
+                            <h4 class="modal-title">Five Star 615</h4>
+                            <i class="fa-solid fa-xmark modal-close"></i>
+
+                            <div class="modal-desc">
+                                <i class="fa-solid fa-book-open modal-icon"></i>
+
+                                <p>This was my first real shot at attempting freelance work.
+                                    It took about a week to do, but I could've likely finished 
+                                    sooner. Definitely coming with its share of challenges, this 
+                                    proved to me that I can put something nice together in a 
+                                    short timeframe.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swiper Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="fa-solid fa-angle-right swiper-project-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="fa-solid fa-angle-left swiper-project-icon"></i>
+                    </div>
+
+                    <!-- Swiper Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== RESUME ====================-->
+            <section class="resume section" id="resume">
+                <div class="resume-bg">
+                    <div class="resume-container container grid">
+                        <div class="resume-data">
+                            <h2 class="resume-title">Résumé</h2>
+                            <p class="resume-subtitle">Why Choose Me?</p>
+
+                            <p class="resume-desc">My drive to be on the cutting edge 
+                                of a growing field initially took me down a different 
+                                path, but the lifelong passion I have for technology 
+                                brought me here. 
+                            </p>
+
+                            <div class="resume-button">
+                                <a href="https://drive.google.com/drive/folders/1IEiXiSM5vTNP0CjajaUc4rYYTy6gFmTj?usp=sharing" class="button button-flex button-alt">
+                                    Résumé <i class="fas fa-download button-icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <img class="resume-img" src="assets/img/checklist.svg" alt="">
+                    </div>
+                </div>
+
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact Me</h2>
+                <span class="section-subtitle">Let's Keep in Touch</span>
+
+                <div class="contact-container container grid">
+                    <div class="contact-left">
+                        <p class="contact-desc">
+                            I look forward to potentially working 
+                            with you as I continue learning and growing 
+                            further. Thanks for showing interest by 
+                            visiting my website.
+                        </p>
+
+                        <div class="contact-info">
+                            <i class="fa-solid fa-phone contact-icon"></i>
+
+                            <div>
+                                <h3 class="contact-title">Phone:</h3>
+                                <span class="contact-subtitle">615-957-9756</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info">
+                            <i class="fa-solid fa-envelope contact-icon"></i>
+
+                            <div>
+                                <h3 class="contact-title">E-mail:</h3>
+                                <span class="contact-subtitle">dq.heard@yahoo.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info">
+                            <i class="fa-solid fa-location-dot contact-icon"></i>
+
+                            <div>
+                                <h3 class="contact-title">Location:</h3>
+                                <span class="contact-subtitle">Madison, TN - 37115</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-info">
+                            <i class="fa-solid fa-globe contact-icon"></i>
+
+                            <div>
+                                <h3 class="contact-title">Socials:</h3>
+
+                                <div class="contact-subtitle">
+                                    <a href="https://www.linkedin.com" target="_blank" class="socials-icon">
+                                        <i class="fa-brands fa-linkedin contact-social"></i>
+                                    </a>
+            
+                                    <a href="https://www.github.com" target="_blank" class="socials-icon">
+                                        <i class="fa-brands fa-square-github contact-social"></i>
+                                    </a>
+            
+                                    <a href="https://www.facebook.com" target="_blank" class="socials-icon">
+                                        <i class="fa-brands fa-square-facebook contact-social"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="https://mailthis.to/dq-heard" class="contact-form" onclick="redirect()">
+                        <div class="contact-inputs grid">
+                            <div class="contact-content">
+                                <label for="" class="contact-label">Name:</label>
+                                <input type="text" class="contact-input" name="name" required>
+                            </div>
     
-<!-- navbar section starts  -->
+                            <div class="contact-content">
+                                <label for="" class="contact-label">E-mail:</label>
+                                <input type="email" class="contact-input" name="_replyto" required>
+                            </div>
+                        </div>
+                       
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Phone (optional):</label>
+                            <input type="tel" class="contact-input" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                        </div>
 
-<nav class="navbar">
-    <a href="index.html"><i class="fas fa-home"></i> <span>Home</span></a>
-    <a href="skills.html"><i class="fas fa-wrench"></i> <span>Skills</span></a>
-    <a href="projects.html"><i class="fas fa-briefcase"></i> <span>Projects</span></a>
-    <a href="contact.html"><i class="fas fa-address-book"></i> <span>Contact</span></a>
-</nav>
+                        <div class="contact-content">
+                            <label for="" class="contact-label">Messages:</label>
+                            <textarea class="contact-input" name="message" cols="0" rows="7" required></textarea>
+                        </div>
 
-<!-- navbar section ends -->
+                        <div>
+                            <a href="#" class="button button-flex">
+                                Send Message
+                                <i class="fa-solid fa-paper-plane button-icon"></i>
+                            </a>
+                        </div>
 
-<!-- home section starts  -->
+                        <input type="hidden" name="_subject" value="Contact Form Submitted">
+                        <input type="hidden" name="_after" value="https://dq-heard.github.io/Portfolio/">
+                        <input type="hidden" name="_honeypot" value="">
+                        <input type="hidden" name="_confirmation" value="Your message has been sent. You will get a reply as soon as possible.">
 
-<section class="home">
+                    </form>
+                </div>
+            </section>
+        </main>
 
-    <div class="image">
-        <img src="images/user.jpg" alt="">
-    </div>
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scroll-up" id="scroll-up">
+            <i class="fa-solid fa-arrow-up scroll-icon"></i>
+        </a>
 
-    <div class="content">
-        <h3>DeQuentin Heard</h3>
-        <span>Software Engineer</span>
-        <p>Starting off as a pandemic hobby,<br/>
-         I stumbled into a passion with coding<br/> 
-         and haven't looked back since.</p>
-        <p>With being a die-hard Arch Linux fan<br/>
-         and a former Android ROM connoisseur,<br/>
-         it's been a move that's long overdue.</p>
-        <p>Though I'm still learning and growing,<br/>
-         I look forward to my transition into tech<br/>
-         and further expanding my horizons.</p>
-    </div>
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
-</section>
-
-<!-- home section ends -->
-
-</body>
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
