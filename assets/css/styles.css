@@ -476,7 +476,8 @@ nav {
 
 /*==================== PROJECTS ====================*/
 .project-container {
-  overflow: initial;
+  cursor: grab;
+  padding: 2rem;
 }
 
 .project-content {
@@ -529,11 +530,11 @@ nav {
 }
 
 .swiper-button-prev {
-  left: -.5rem;
+  left: 0;
 }
 
 .swiper-button-next {
-  right: -.5rem;
+  right: 0;
 }
 
 .swiper-button-prev,
@@ -541,8 +542,8 @@ nav {
   visibility: hidden;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: -2.5rem;
+.swiper-horizontal > .swiper-pagination-bullets {
+  padding-top: 1rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -799,6 +800,10 @@ nav {
 
   .skills-content {
     padding-right: 3.5rem;
+  }
+
+  .project-content {
+    padding: 0;
   }
 
   .resume-img {
@@ -1060,6 +1065,10 @@ nav {
     padding-bottom: 5rem;
   }
 
+  .project-content {
+    padding: 0 3.5rem;
+  }
+  
   .swiper-button-prev,
   .swiper-button-next {
     visibility: visible;
@@ -1109,18 +1118,6 @@ nav {
     font-size: 3.5em;
   }
 
-  .swiper-button-prev {
-    left: -3.5rem;
-  }
-
-  .swiper-button-next {
-    right: -3.5rem;
-  }
-
-  .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -4.5rem;
-  }
-
   .resume-desc {
     width: 260px;
   }
@@ -1128,11 +1125,6 @@ nav {
   .contact-form {
     width: 460px;
   }
-
-  /* .contact-inputs {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-  } */
 }
 
 @media screen and (min-width: 1200px) {

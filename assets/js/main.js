@@ -86,15 +86,7 @@ let swiper = new Swiper(".project-container", {
 });
 
 /*==================== TESTIMONIAL ====================*/
-const container = document.querySelector('body');
 
-window.addEventListener('scroll', () => {
-  container.scrollTop = window.scrollY;
-});
-
-container.addEventListener('scroll', () => {
-  window.scrollTo(0, container.scrollTop);
-});
 
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
