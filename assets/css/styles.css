@@ -480,6 +480,10 @@ nav {
   padding: 2rem;
 }
 
+.project .section-subtitle {
+  margin-bottom: 0;
+}
+
 .project-content {
   padding: 0 1.5rem;
 }
@@ -543,7 +547,7 @@ nav {
 }
 
 .swiper-horizontal > .swiper-pagination-bullets {
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .swiper-pagination-bullet-active {
@@ -1013,6 +1017,10 @@ nav {
     width: 320px;
   }
 
+  .project-title {
+    margin-bottom: 0;
+  }
+
   .title-container {
     display: block;
   }
@@ -1063,6 +1071,10 @@ nav {
 
   .resume-img {
     padding-bottom: 5rem;
+  }
+
+  .project .section-title {
+    margin-top: 3rem;
   }
 
   .project-content {
@@ -1120,6 +1132,10 @@ nav {
 
   .resume-desc {
     width: 260px;
+  }
+
+  .contact .section-subtitle {
+    margin-bottom: var(--mb-2);
   }
 
   .contact-form {
