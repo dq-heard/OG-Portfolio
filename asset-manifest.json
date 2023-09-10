@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b1de981e.css",
-    "main.js": "/Portfolio/static/js/main.f678c2d7.js",
+    "main.css": "/Portfolio/static/css/main.93a96b30.css",
+    "main.js": "/Portfolio/static/js/main.102428f4.js",
     "static/js/651.0651393f.chunk.js": "/Portfolio/static/js/651.0651393f.chunk.js",
+    "static/media/xelement.png": "/Portfolio/static/media/xelement.44400b7b66448a903d23.png",
     "static/media/fivestar.png": "/Portfolio/static/media/fivestar.c95fc437cca8885ce318.png",
     "static/media/shoebrand.png": "/Portfolio/static/media/shoebrand.e9c9ed53137b6e2b0e0c.png",
-    "static/media/wreksdiner.png": "/Portfolio/static/media/wreksdiner.c73cb59fc81bee23a78c.png",
+    "static/media/wreksdiner.png": "/Portfolio/static/media/wreksdiner.25d9d56d07c33cc8b1cf.png",
     "static/media/about.jpg": "/Portfolio/static/media/about.bb6ab055848d0e42c39b.jpg",
     "static/media/tesseract.png": "/Portfolio/static/media/tesseract.3c55ab688542bed673ab.png",
     "index.html": "/Portfolio/index.html",
-    "main.b1de981e.css.map": "/Portfolio/static/css/main.b1de981e.css.map",
-    "main.f678c2d7.js.map": "/Portfolio/static/js/main.f678c2d7.js.map",
+    "main.93a96b30.css.map": "/Portfolio/static/css/main.93a96b30.css.map",
+    "main.102428f4.js.map": "/Portfolio/static/js/main.102428f4.js.map",
     "651.0651393f.chunk.js.map": "/Portfolio/static/js/651.0651393f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1de981e.css",
-    "static/js/main.f678c2d7.js"
+    "static/css/main.93a96b30.css",
+    "static/js/main.102428f4.js"
   ]
 }
